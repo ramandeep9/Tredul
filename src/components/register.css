@@ -1,0 +1,111 @@
+
+/* register.css */
+.register-container {
+    max-width: 400px;
+    width: 300px;
+    margin: 150px auto;
+    padding: 40px 150px 80px 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2.me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 30px 20px 50px;
+    gap: 8px;
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type='text_register'],
+  input[type='email_register'],
+  input[type='password_register'], button {
+  margin: 13px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width:300px;
+  
+  }
+  .rmn{
+    margin-top: 20px;
+  }
+  
+  input[type='text_register'],
+  input[type='email_register'],
+  input[type='password_register'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  button.mybtn {
+    width: 420px;
+    padding: 10px;
+    background-color: #236238;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #193a28;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
+  p a {
+    color: #236238;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+ @media screen and (max-width:475px){
+    .container{
+        margin:20px;
+        width:90%;
+        padding: 20px;
+    }
+    .register-container{
+        width:90%;
+        padding:10px;
+    }
+    input#text_register{
+        width:250px;
+    }
+    input#email_register{
+        width:250px;
+    }
+    input#password_register{
+        width:250px;
+    }
+    button.mybtn{
+        width:250px;
+    }
+    h2.me{
+     margin:20px;
+     padding:30px;
+    }
+    form.rmn{
+        padding:20px;
+    }
+}

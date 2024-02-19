@@ -1,5 +1,7 @@
 // Login.tsx
 import React, { useState } from 'react';
+import "./login.css";
+import logo from "../assets/logo.png";
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState<string>('');
@@ -12,10 +14,12 @@ const Login: React.FC = () => {
 
   return (
     <div className="login-container">
-      <h2>Login to Tredul</h2>
+      <div className="tredul-logo"><img className = "mylogo"  alt ="location" src={logo} /></div>
+      <div className="log"><h1 className="head">Login to Tredul</h1></div>
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
+        <input 
+          type="email_login"
+          
           placeholder="Username or Email"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
@@ -23,7 +27,7 @@ const Login: React.FC = () => {
         />
         <input
           type="password"
-          placeholder="Password"
+          placeholder="Enter Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required

@@ -1,0 +1,376 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 30px 10px 20px;
+    background-color: rgba(255, 255, 255);
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  nav ul li {
+    cursor: pointer;
+  }
+
+  .mann{
+    color: #4caf50;
+  }
+
+  .transparent-image {
+    text-align: center;
+    margin: 0px;
+    padding: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('../assets/tttt.jpg');
+    object-fit: cover; 
+    background-size: cover;
+    width:827px;
+    
+  }
+
+  .transparent-image h1 {
+    margin-bottom: 10px;
+  }
+
+  .transparent-image p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .transparent-image button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .transparent-image button:hover {
+    background-color: #45a049;
+  }
+
+
+
+  .se{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+
+
+
+  .share-experience {
+    width: 50%;
+    margin-bottom: 70px;
+  }
+  .homeimg{
+    width: 100%;
+  }
+
+  .irc{
+      width: 50%;
+      text-align: left;
+      padding: 50px;
+      margin-bottom: 70px;
+  }
+  .visit{
+    color: #4caf50;
+    font-size: 30px;
+    margin:60px;
+  }
+
+  .btn1{
+    padding: 15px;
+    border-radius: 20px;
+    border: none; 
+    background-color: #45a049;
+    color: #fff;
+    margin-top: 100px;
+  }
+
+  .swipe{
+    align-self: flex-start;
+    margin-top: 10%;
+    height: 100px;
+    width: 5px;
+    background-color: green;
+    cursor: pointer;
+  }
+  .icons{
+    transition: 0.7s ease;
+  }
+  .swipe:hover .icons{
+    transform: translateX(-50px);
+    transition: 0.7s ease;
+  }
+
+  .iconlist{
+    list-style: none;
+    padding: 10px;
+  }
+  .swipeicon{
+    margin: 10px 0 10px 0;
+  }
+  .share-experience h2 {
+    margin-bottom: 10px;
+  }
+
+  .share-experience button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .share-experience button:hover {
+    background-color: #45a049;
+  }
+
+
+  footer {
+    margin-top: auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+  }
+
+  .footer-links ul li {
+    cursor: pointer;
+    
+  }
+  .text-center p-3{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .social-icons span {
+    cursor: pointer;
+  }
+  .social-icons{
+    padding: 0 10px 10px 0;
+    /* margin-left: 150px; */
+  }
+
+  .social-icons ul{
+  background-position-x: right;
+  }
+
+  .facebook{
+    background-image: url('../assets/facelogo.png');
+    background-size: cover;
+    width:35px;
+    height: 35px;
+    
+  }
+  .twitter{
+    background-image: url('../assets/twitter\ logo.png');
+    background-size: cover;
+    width:35px;
+    height: 35px;
+    
+  }
+  .linkedin{
+    background-image: url('../assets/linkdn.jpg');
+    background-size: cover;
+    width:35px;
+    height: 35px;
+    background-color: none;
+    
+  }
+  .youtube{
+    background-image: url('../assets/youtubelogo.png');
+    background-size: cover;
+    width:39px;
+    height: 42px;
+    margin-bottom: 0px;
+    
+  }
+  .insta{
+    background-image: url('../assets/instalogo.png');
+    background-size: cover;
+    width:35px;
+    height: 35px;
+    
+  }
+  .transparent {
+    text-align: center;
+    margin: 0px;
+    padding: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('../assets/expereience.jpeg');
+    height:200px;
+    object-fit: cover; 
+    background-size: cover;
+    margin-bottom: 10px;
+    
+  }
+  .left{
+    left: auto;
+    width:300px;
+    height: 50px;
+  }
+
+  .transparent h1 {
+    margin-bottom: 10px;
+  }
+
+  .transparent p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .transparent button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    float: right;
+  }
+
+  .transparent button:hover {
+    background-color: #45a049;
+  }
+
+
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 30px 10px 20px;
+    background-color:  rgb(30,77,43);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:#fff;
+    height: 270px;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* margin-bottom: 10px; */
+  }
+
+  footer ul li {
+    cursor: pointer;
+    margin-bottom: -45px;
+  }
+
+
+  .logo{
+    width:175px;
+    height: 70px;
+  }
+  .mylogo{
+    width:175px;
+    height: 70px;
+  }
+
+  .dropmenu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+
+  .login:hover .dropmenu{
+    display: flex;
+  }
+
+
+
+  @media (max-width:475px) {
+  .transparent-image{
+    width: 100%;
+  }
+
+  .homeimg{
+    width:300px;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .transparent{
+    width: 100%;
+  }
+
+  .btn1{
+    margin:10px 0px 0px 70px;
+    width:200px;
+  }
+  footer{
+    width: 730px;
+  }
+  .irc{
+    margin: 80px;
+    padding: 60px;
+  }
+  .iconlist{
+    padding: 10px;
+    margin-left: 2px;
+  }
+  .swipe{
+    margin-left: 52px;
+  }    
+  p.visit{
+    margin-top:200px;
+  }
+  p.travel{
+    margin:10px 0px 60px 60px;
+    width:170px;
+  }
+  .btn2{
+   margin: 100px 80px 0px 0px;
+   width:200px;
+  }
+  /* .se{
+    flex-direction: column;
+  } */
+}

@@ -1,9 +1,9 @@
 // src/HomePage.tsx
 import React from 'react';
-import './index.css'; 
-import logo from "./logo.png"
-import home from "./home.jpeg"
-import homeimages from "./expereience.jpeg"
+import './home.css'; 
+import logo from "../assets/logo.png"
+import home from "../assets/home.jpeg"
+import homeimages from "../assets/expereience.jpeg"
 import { Link } from 'react-router-dom';
 
 
@@ -16,12 +16,12 @@ const HomePage: React.FC<HomePageProps> = () => {
         <div className="logo"><img className = "mylogo" src ={logo} alt ="location" /></div>
         <ul className="hover">
           <li className ="mann">Home</li>
-          <li>Activities</li>
-          <li>Schedule</li>
-          <li><Link to = "/contact">Contact</Link></li>
+          <li className ="mann">Activities</li>
+          <li className ="mann">Schedule</li>
+          <li className ="mann"><Link to = "/contact">Contact</Link></li>
 
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/login">Login</Link></li>
+          <li className ="mann"><Link to="/about">About</Link></li>
+          <li className ="mann"><Link to="/login">Login</Link></li>
           <li className="login"> <Link to="/register">Register</Link>
             {/* <ul className="dropmenu">
               <li className="dropitem">Edutourist</li>
@@ -75,7 +75,7 @@ Universities, Colleges, Schools,<br/> NGOs, Spiritual Centres<br/></p>
       
        <p className="left">Calling all passionate travelers! <br/> Share your enriching journeys on Tredul and be part of a global community dedicated to exploring, connecting, and making a positive impact.<br/>
         Inspire others with your unique experiences <br/></p>
-       <button className="btn1">Share your Experience</button>
+       <button className="btn2">Share your Experience</button>
      </div></div>
 
 

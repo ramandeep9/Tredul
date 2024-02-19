@@ -1,6 +1,8 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 import React from 'react';
- import photo from './image.jpg'
+ import photo from '../assets/image.jpg'
 import { Link } from 'react-router-dom';
+import './contact.css'
 
 
 const ContactUs: React.FC = () => {
