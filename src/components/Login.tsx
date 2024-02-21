@@ -1,4 +1,6 @@
 // Login.tsx
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</meta>
 import React, { useState } from 'react';
 import "./login.css";
 import logo from "../assets/logo.png";
@@ -19,7 +21,7 @@ const Login: React.FC = () => {
       <form onSubmit={handleSubmit}>
         <input 
           type="email_login"
-          
+          id='email_login'
           placeholder="Username or Email"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
@@ -27,12 +29,13 @@ const Login: React.FC = () => {
         />
         <input
           type="password"
+          id='password_login'
           placeholder="Enter Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit">Login</button>
+        <button type="submit" className='btn'>Login</button>
       </form>
       <a href="/forgot_password">Forgot Password?</a>
       <p>Don't have an account? <a href="/register">Register here</a></p>

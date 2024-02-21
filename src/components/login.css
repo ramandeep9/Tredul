@@ -42,8 +42,7 @@
     width: 400px;
   }
   
-  
-  
+
   input[type="email_login"],
   input[type="password"],
   button {
@@ -54,15 +53,15 @@
     width:400px;
   }
   
-  button {
-    background-color: #4CAF50;
+  button.btn {
+    background-color: #1d6f20;
     color: white;
     cursor: pointer;
     width: 422px;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #154c18;
   }
   
   a {
@@ -83,5 +82,10 @@
   form{
     width:200px;
  }
-    
+ input#password_login{
+    width:400px;
+ }
+ button.btn{
+    width:422px;
+ }
 }
