@@ -17,17 +17,17 @@ const HomePage: React.FC<HomePageProps> = () => {
         <ul className="hover">
           <li className ="mann">Home</li>
           <li className ="mann">Activities</li>
-          <li className ="mann">Schedule</li>
+          <li className="mann"> <Link to="/schedule">Schedule</Link></li>
           <li className ="mann"><Link to = "/contact">Contact</Link></li>
 
           <li className ="mann"><Link to="/about">About</Link></li>
-          <li className ="mann"><Link to="/login">Login</Link></li>
-          <li className="login"> <Link to="/register">Register</Link>
+          <li className ="mann"><Link to="/login/">Login</Link></li>
+          <li className="mann"> <Link to="/register">Register</Link></li>
+         
             {/* <ul className="dropmenu">
               <li className="dropitem">Edutourist</li>
               <li className="dropitem">Eduhost</li>
-            </ul> */}
-          </li>
+  </ul> */}
 
         </ul>
       </nav>

@@ -4,10 +4,10 @@
     max-width: 400px;
     width: 400px;
     margin: 150px auto;
-    padding: 50px;
+    padding: 30px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
   .tredul-logo{
@@ -57,7 +57,8 @@
     background-color: #1d6f20;
     color: white;
     cursor: pointer;
-    width: 422px;
+    width: 400px;
+    margin-left: 0px;
   }
   
   button:hover {
@@ -67,25 +68,33 @@
   a {
     color: #4bb36d;
     text-decoration: none;
-  }
   
+  }
+
   a:hover {
     text-decoration: underline;
   }
+  p{
+    padding:0px;
+  }
   @media screen and (max-width:475px){
-  .mybtn{
-    width:300px;
+  button.btn{
+    width:250px;
  }
-  logo-container{
-    margin:50px;
+  .login-container{
+    margin:30px;
+    width:260px;
     }
   form{
-    width:200px;
+    width:250px;
  }
  input#password_login{
-    width:400px;
+    width:250px;
  }
- button.btn{
+ input#email_login{
+    width:250px;
+ }
+ /* button.btn{
     width:422px;
- }
+ } */
 }

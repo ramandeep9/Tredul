@@ -1,7 +1,7 @@
 
 /* register.css */
 .register-container {
-    max-width: 400px;
+    /* max-width: 400px; */
     width: 300px;
     margin: 150px auto;
     padding: 40px 150px 80px 80px;
@@ -27,39 +27,48 @@
     font-weight: bold;
   }
   
-  input[type='text_register'],
-  input[type='email_register'],
-  input[type='password_register'], button {
-  margin: 13px 0;
+  input#email_register{
+  margin: 13px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width:300px;
+  width:350px;
+  height:38px;
   
   }
-  .rmn{
-    margin-top: 20px;
-  }
-  
-  input[type='text_register'],
-  input[type='email_register'],
-  input[type='password_register'] {
-    width: 100%;
+
+  input#text_register{
+    width: 350px;
+    height:38px;
     padding: 10px;
+    margin: 13px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     
   }
+  input#password_register{
+    width: 350px;
+    height:38px;
+    margin:13px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form.rmn{
+    margin-top: 20px;
+  }
   
   button.mybtn {
-    width: 420px;
+    width: 350px;
     padding: 10px;
     background-color: #236238;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 12px;
   }
   
   button:hover {

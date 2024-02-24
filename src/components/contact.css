@@ -1,4 +1,4 @@
-@media (max-width: 475px){
+
 
 /* ContactUs.css */
 .contact-us-container {
@@ -8,13 +8,12 @@
     padding: 20px;
   }
   
-  
-  
   .contact-us-header {
     font-size: 2rem;
     color: #333;
     text-align: center;
     margin-top: 30px;
+    margin-left:150px;
   }
   .Touchcolor{
     color:#326242;
@@ -76,6 +75,7 @@
     font-size: 1.1rem;
     cursor: pointer;
     width: 720px;
+    margin-left: 0px;
     transition: background-color 0.3s ease;
   }
   
@@ -90,13 +90,14 @@
     color: #4bb36d;
     text-decoration:none;
     font-size: 1.1rem;
+    margin-left: 70px;
   }
   
   .back-link:hover {
     text-decoration: underline;
   }
 
-
+  @media (max-width: 475px){
     img{
         width:100%;
       }
@@ -117,5 +118,8 @@
       }
       .submit-btn{
         width:100%;
+      }
+      .back-link {
+        align-content: center;
       }
 }
