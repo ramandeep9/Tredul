@@ -98,6 +98,9 @@
   }
 
   @media (max-width: 475px){
+    h2.contact-us-header{
+      margin-left: 35px;
+    }
     img{
         width:100%;
       }
