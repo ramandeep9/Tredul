@@ -1,10 +1,13 @@
-// AboutUs.tsx
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+// AboutUs.ts
 import "./about.css";
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from "./Nav";
+import Footer from "./Footer";
 const AboutUs: React.FC = () => {
   return (
+   <div><Navbar/>
+    
     <div className="about-us-container">
       <h2 className="about-us-header">Our Story</h2>
       <div className="about-us-content">
@@ -14,6 +17,8 @@ const AboutUs: React.FC = () => {
         <Link to="/" className="back-link">Go back to Home Page</Link>
       </div>
     </div>
+    <Footer/>
+  </div>
   );
 };
 

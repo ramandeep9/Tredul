@@ -1,8 +1,9 @@
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 import "./schedule.css";
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
+import Navbar from "./Nav";
+import Footer from "./Footer";
 
 const SchedulePage: React.FC = () => {
   const [selectedDate, setSelectedDate] = useState<string>('');
@@ -23,8 +24,8 @@ const SchedulePage: React.FC = () => {
   };
 
   return (
-    <div>
-      <h2>Schedule</h2>
+    <div><div><Navbar/>
+      <h2 className="schedule">Schedule</h2>
 
       <div className="calendar-container">
         <div className="calendar">
@@ -54,7 +55,8 @@ const SchedulePage: React.FC = () => {
 
           <button type="submit">Book Schedule</button>
         </form>
-      </div>
+      </div></div>
+      <Footer/>
     </div>
   );
 };

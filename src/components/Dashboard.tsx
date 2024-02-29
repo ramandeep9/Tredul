@@ -1,10 +1,8 @@
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</meta>
-
 // src/HomePage.tsx
 import React from 'react';
 import './dashboard.css'; 
+// import Navbar from "./Nav";
 // import logo from "../assets/logo.png"
 // import home from "../assets/home.jpeg"
 // import homeimages from "../assets/expereience.jpeg"

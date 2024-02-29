@@ -1,8 +1,10 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</meta>
+
 import React, { useState } from 'react';
 import "./register.css";
 import { Link } from 'react-router-dom';
+import Navbar from "./Nav";
+import Footer from "./Footer";
+
 
 const Register: React.FC = () => {
   const [username, setUsername] = useState<string>('');
@@ -15,7 +17,7 @@ const Register: React.FC = () => {
   };
 
   return (
-
+     <div><Navbar/>
      <div className="register-container">
       <h2 className="me">Create an Account</h2>
       <form onSubmit={handleSubmit} className='rmn'>
@@ -45,7 +47,9 @@ const Register: React.FC = () => {
         />
         <button type="submit" className="mybtn">Register</button>
       </form>
-      <p>Already have an account? <Link to="/login">Login here</Link></p>
+      <p className='account'>Already have an account? <Link to="/login">Login here</Link></p>
+    </div>
+    <Footer/>
     </div>
 
   );

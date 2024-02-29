@@ -97,7 +97,7 @@
     text-decoration: underline;
   }
 
-  @media (max-width: 475px){
+  @media (max-width: 476px){
     h2.contact-us-header{
       margin-left: 35px;
     }

@@ -1,13 +1,15 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
 import React from 'react';
  import photo from '../assets/image.jpg'
 import { Link } from 'react-router-dom';
 import './contact.css'
+import Navbar from "./Nav";
+import Footer from "./Footer"
 
 
 const ContactUs: React.FC = () => {
   return (
-    
+    <div><Navbar/>
     <div className="contact-us-container">
        <h2 className="contact-us-header">Get in <span  className='Touchcolor'>Touch</span></h2>
        <div className="background image">
@@ -42,6 +44,8 @@ const ContactUs: React.FC = () => {
       <Link to="/" className="back-link">Go back to Home Page</Link>
   
     </div>
+    <Footer/>
+  </div>
   );
 };
 

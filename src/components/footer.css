@@ -1,0 +1,79 @@
+
+/* footer.css */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 30px 10px 20px;
+    background-color: rgb(80, 78, 78);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    height: 100px;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  footer ul li {
+    cursor: pointer;
+  }
+  
+  
+  .logo{
+    width:105px;
+    height: 70px;
+  }
+  .mylogo{
+    width:70px;
+    height: 70px;
+  }
+  
+  .copy {
+    background-color: rgb(80, 78, 78);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: rgb(250, 241, 241);
+   height: 30px;
+   padding-left: 70px;
+   
+  }
+  .copy p{
+    margin:0px;
+  }
+  
+
+  @media only screen and (max-width:476px) { 
+  footer {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    height:180px;
+    padding: 0px;
+  
+   }
+   .footer-links{
+    flex-direction: column;
+    margin:0px 15px 0px 0px;
+    padding: 5px;
+   }
+   .social-icons{
+    margin:5px;
+    padding: 5px;
+   }
+   ul.twiter{
+    margin:10px 15px 0px 0px;
+    padding: 10px 10px 10px 10px;
+   }
+   .copy{
+    width:100%;
+    margin:0px;
+    padding: 0px;
+   }
+   .copy p{
+    margin: 0px;
+    text-indent:0.5 rem;
+   }
+}

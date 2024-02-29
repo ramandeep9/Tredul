@@ -1,9 +1,9 @@
 // Login.tsx
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</meta>
 import React, { useState } from 'react';
 import "./login.css";
 import logo from "../assets/logo.png";
+import Navbar from "./Nav";
+import Footer from "./Footer";
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState<string>('');
@@ -15,6 +15,7 @@ const Login: React.FC = () => {
   };
 
   return (
+    <div><Navbar/>
     <div className="login-container">
       <div className="tredul-logo"><img className = "mylogo"  alt ="location" src={logo} /></div>
       <div className="log"><h1 className="head">Login to Tredul</h1></div>
@@ -38,8 +39,9 @@ const Login: React.FC = () => {
         <button type="submit" className='btn'>Login</button>
       </form>
       <a href="/forgot_password">Forgot Password?</a>
-      <p>Don't have an account? <a href="/register">Register here</a></p>
+      <p className='register_account'>Don't have an account? <a href="/register">Register here</a></p>
     </div>
+    <Footer/></div>
   );
 };
 

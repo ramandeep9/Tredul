@@ -74,10 +74,10 @@
   a:hover {
     text-decoration: underline;
   }
-  p{
+  .register_account{
     padding:0px;
   }
-  @media screen and (max-width:475px){
+  @media screen and (max-width:476px){
   button.btn{
     width:250px;
  }
