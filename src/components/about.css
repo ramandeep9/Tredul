@@ -4,16 +4,19 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    
   }
   
   .about-us-header {
     font-size: 2rem;
     color: #333;
-    margin-left: 240px;
+    margin: 8% 0 0 16%;
+    padding: 7% 0 0 17%;
   }
   
   .about-us-content {
-    margin-top: 20px;
+    margin-top: 1%;
+    padding: 2%;
   }
   
   .about-us-content p {
@@ -21,6 +24,7 @@
     line-height: 1.6;
     content: justify;
     color: #787777;
+    margin: 1% 0 0;
   }
   
   .back-link {
@@ -38,7 +42,7 @@
   }
   @media screen and (max-width:476px){
    .about-us-header{
-    margin-left:30%;
+    margin:30% 0 0 5%;
    }
    .back-link {
     margin-left: 10%;

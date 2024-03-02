@@ -12,8 +12,9 @@
     font-size: 2rem;
     color: #333;
     text-align: center;
-    margin-top: 30px;
-    margin-left:150px;
+    margin: 10% 0 0 3%;
+    padding-top:2rem;
+    
   }
   .Touchcolor{
     color:#326242;
@@ -99,7 +100,8 @@
 
   @media (max-width: 476px){
     h2.contact-us-header{
-      margin-left: 35px;
+      margin: 17% 0 0 10%;
+      padding: 10% 0 0 0;
     }
     img{
         width:100%;

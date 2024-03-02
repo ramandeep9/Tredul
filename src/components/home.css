@@ -16,7 +16,7 @@
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-  
+
   .mann{
     color: #4caf50;
   }
@@ -30,8 +30,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-image: url('../assets/tttt.jpg');
     object-fit: cover; 
-    background-size: cover;
-    
+    background-size: cover; 
   }
   
   .transparent-image h1 {
@@ -67,7 +66,6 @@
   }
   
   .hover>li>a:hover{
-  
     text-decoration: none;
   
   }
@@ -78,6 +76,7 @@
   }
   .homeimg{
     width: 100%;
+    margin:-10% 0 0 0;
   }
   
   .irc{
@@ -89,6 +88,15 @@
   .visit{
     color: #4caf50;
     font-size: 30px
+  }
+  
+  .btn3{
+    padding: 15px;
+    border-radius: 20px;
+    border: none; 
+    background-color: #45a049;
+    color: #fff;
+    width: 165px;
   }
   
   .btn1{
@@ -110,7 +118,6 @@
     width: 180px;
     
   }
-  
   
   
   .swipe{
@@ -311,7 +318,7 @@
 .my{
   border-radius: 50%;
   width: 150px;
-  height: 150px;
+  height:150px;
 }
   .m{
     margin-left: 500px;
@@ -349,15 +356,19 @@
     font-size: 16px;
     line-height: 1.6;
   }
-  
-
+ 
 
 
   @media only screen and (max-width:476px) {
   
     .transparent-image{
       padding: 0px;
+      margin:20% 0 0% 0;
   
+    }
+    button.btn3{
+      margin-top:0%;
+      margin-bottom: 2%;
     }
     h1.head_text{
       padding-top: 10%;
@@ -371,7 +382,7 @@
       margin:20px 0px 0px 0px;
     }  */
     button.btn1{
-      margin-bottom: 40px;
+      margin-bottom: 10px;
       margin-left:-15px;
       padding:10px;
     }
@@ -380,7 +391,7 @@
     }
     img.homeimg{
       width:100%;
-      margin:20% 0% 10% 0%;
+      margin:38% 0% -10% 0%;
       transform: scale(2);
       -webkit-transform: scale(2);
       -moz-transform: scale(2);

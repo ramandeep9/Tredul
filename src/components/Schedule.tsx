@@ -33,7 +33,7 @@ const SchedulePage: React.FC = () => {
         </div>
 
         <form className="schedule-form" onSubmit={handleSubmit}>
-          <label htmlFor="date">Select Date:</label>
+          <label htmlFor="date">Select Date</label>
           <input
             type="date"
             id="date"
@@ -43,7 +43,7 @@ const SchedulePage: React.FC = () => {
             required
           />
 
-          <label htmlFor="time">Select Time:</label>
+          <label htmlFor="time">Select Time</label>
           <input
             type="time"
             id="time"
@@ -53,7 +53,7 @@ const SchedulePage: React.FC = () => {
             required
           />
 
-          <button type="submit">Book Schedule</button>
+          <button type="submit" id="schedulebtn">Book Schedule</button>
         </form>
       </div></div>
       <Footer/>

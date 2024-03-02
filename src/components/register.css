@@ -1,7 +1,6 @@
-
+/* 
 /* register.css */
-.register-container {
-    /* max-width: 400px; */
+ /* .register-container{
     width: 300px;
     margin: 150px auto;
     padding: 40px 150px 80px 80px;
@@ -45,8 +44,9 @@
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
+   
   }
+
   input#password_register{
     width: 350px;
     height:38px;
@@ -87,12 +87,124 @@
   p a:hover {
     text-decoration: underline;
   }
+   */ */ */
+   .register-page {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 800px;
+    margin-top: 40px;
+  }
   
+  .usertype{
+    margin:0 0 0 15%;
+  }
+  #registerAsHost{
+    justify-content: space-between;
+   
+  }
+  #registerAsTourist{
+    justify-content: space-between;
+   
+  }
+  .user-type-selection {
+    margin: 10% 10% 5% 15%;
+    padding-bottom: 0;
+  }
+  
+  .register-form {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:  #4bb36d;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:  #6d706e;
+  }
+  input[type='text_register'],
+  input[type='email_register'],
+  input[type='password_register'], button {
+  margin: 13px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width:400px;
+  
+  }
+  input[type='text_register'],
+  input[type='email_register'],
+  input[type='password_register'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  .register-container {
+    max-width: 400px;
+    width: 400px;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2.me{
+    pad: 0;
+    margin: 0;
+  }
+  p {
+    margin-top: 20px;
+  }
+  
+  p a {
+    color: #4bb36d;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  .mybtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4bb36d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #193a28;
+  }
+  .back-link{
+    margin:0 0 0 0;
+  }
  @media screen and (max-width:476px){
     .container{
         margin:20px;
         width:90%;
         padding: 20px;
+    }
+    .usertype{
+      margin:5% 0 0 10%;
+      padding: 5% 0 0 8%;
+    }
+    .user-type-selection{
+      margin: 10% 10% 0% 15%;
+      padding-bottom: 2%;
+    
     }
     .register-container{
         width:90%;
@@ -106,6 +218,16 @@
     }
     input#password_register{
         width:250px;
+    }
+    #registerAsHost{
+      width:70%;
+      margin: 10% 0 0 15%;
+      padding: 2%;
+    }
+    #registerAsTourist{
+      width:70%;
+      margin: 10% 0 71% 15%;
+      padding: 2%;
     }
     button.mybtn{
         width:250px;

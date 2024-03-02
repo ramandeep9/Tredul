@@ -22,7 +22,7 @@ const HomePage: React.FC<HomePageProps> = () => {
           <h1 className='head_text'>Explore Our Locations</h1>
           <p>If you have time and skill, then why not share it.<br/>
             If there is a desire to do something for someone, <br/>then register yourself, and login to our website.</p>
-          <button className="btn1">Check Our Locations</button>
+          <button className="btn3">Check Our Locations</button>
         </div>
 
         <div className="se">
@@ -69,16 +69,6 @@ const HomePage: React.FC<HomePageProps> = () => {
         <p className="t2"><b>Calling all passionate travelers! Share your enriching journeys on Tredul and be part of a global community dedicated to exploring, connecting, and making a positive impact. Inspire others with your unique experiences</b></p>
       </div>
     </div>
-    
-    {/* <div>
-      <div>
-        <h1 className="m">Top Edutourist</h1>
-    <div className="pp"><img className="my" alt="location" src={hom} /> 
-    <img className="my" alt="location" src={hom} /> <img className="my" alt="location" src={hom} /> <img className="my" alt="location" src={hom} /> <img className="my" alt="location" src={hom} /> <img className="my" alt="location" src={hom} /> 
-    </div>
-    
-     </div>
-    </div> */}
 
 <div>
         <div className="big_container">

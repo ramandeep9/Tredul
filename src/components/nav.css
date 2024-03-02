@@ -4,10 +4,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding:10px 30px 10px 20px;
-    background-color: rgba(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    position: static;
+    position: fixed;
+    width: 97%;
+    top:0;
    
   }
   
@@ -24,12 +26,15 @@ nav {
     color: #4caf50;
   }
   .logo{
-    width:105px;
-    height: 70px;
+    width:100px;
+    height: 80px;
+    margin:2px 0px 0px 8px;
   }
   .mylogo{
-    width:70px;
-    height: 70px;
+    width:110px;
+    height: 55px;
+    margin:9px 0px 0px 5%;
+    padding-left: 8%;
     transform: scale(1.9);
   }
 
@@ -39,29 +44,21 @@ nav {
   height: 40px;
   right: 20px;
   top: 20px;
-  display: none;
-}
-.dropmenu{
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  background-color: #fff;
-  margin-right: 10px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
 }
 
-
-
-  @media only screen and (max-width:476px){
-    .burg{
-      display: block;
-    }
-
+ @media only screen and (max-width:476px){
+  nav{
+    top: 0; 
+    width:100% 
+      
+  }
+  .mylogo{
+    width:50px;
+    height: 50px;
+  }
     .hover{
       display: none;
-      position: absolute;
+      /* position: absolute; */
       flex-direction: column;
       background-color: #fff;
       top:90px;
@@ -72,12 +69,19 @@ nav {
       justify-content: center;
       align-items: center;
    
-}
-.active{
-  display:flex;
-}
+     }
+     .active{
+      display:flex;
+      }
+
     .burg{
       cursor: pointer;
+      z-index: 9999;
+      display: block;
     }
- 
+    ul.hover.active{
+      margin:0;
+      padding: 0;
+    }
   }
+

@@ -1,7 +1,7 @@
 // Login.tsx
 import React, { useState } from 'react';
 import "./login.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo1.png";
 import Navbar from "./Nav";
 import Footer from "./Footer";
 
@@ -17,7 +17,8 @@ const Login: React.FC = () => {
   return (
     <div><Navbar/>
     <div className="login-container">
-      <div className="tredul-logo"><img className = "mylogo"  alt ="location" src={logo} /></div>
+      <div className="tredul-logo">
+        <img className = "myloginlogo"  alt ="location" src={logo} /></div>
       <div className="log"><h1 className="head">Login to Tredul</h1></div>
       <form onSubmit={handleSubmit}>
         <input 

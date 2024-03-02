@@ -19,23 +19,23 @@ const ContactUs: React.FC = () => {
       <div className="contact-form-container">
         <form className="contact-form">
           <div className="form-group">
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required />
           </div>
           <div className="form-group">
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Your Email" required />
           </div>
           <div className="form-group">
-            <label htmlFor="mobile">Mobile:</label>
+            <label htmlFor="mobile">Mobile</label>
             <input type="tel" id="mobile" name="mobile" placeholder="Your Mobile Number" required />
           </div>
           <div className="form-group">
-            <label htmlFor="application">Application:</label>
+            <label htmlFor="application">Application</label>
             <input type="text" id="application" name="application" placeholder="Application" required />
           </div>
           <div className="form-group">
-            <label htmlFor="query">Query:</label>
+            <label htmlFor="query">Query</label>
             <textarea id="query" name="query" placeholder="Your Query" required></textarea>
           </div>
           <button type="submit" className="submit-btn">Message</button>
