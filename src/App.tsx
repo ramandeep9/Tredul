@@ -6,9 +6,13 @@ import Login from './components/Login';
 import Register from './components/Register';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
-import Schedule from "./components/Schedule";
-import Registration from './components/Register';
+import Schedule from './components/Schedule';
+import Activities from './components/Activities';
+import Rating from './components/Rating';
+
+
 function App() {
+  
   return (
     <Router>
       <div className="App">
@@ -16,17 +20,16 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Registration />} />
+          <Route path="/Rating" element={<Rating />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/about" element={<AboutUs />} /> 
+          <Route path="/schedule" element={<Schedule />} /> 
           <Route path="/contact" element={<ContactUs />} /> 
-          <Route path='/schedule' element={<Schedule />}/>
-        </Routes>
+          <Route path="/Activities" element={<Activities />} />  
+        </Routes>   
       </div>
     </Router>
   );
 }
 
 export default App;
-
-
-

@@ -83,9 +83,7 @@ const Register: React.FC = () => {
           <div className="register-container">
       <h2 className="me">Create an Account</h2>
           <input type="texts" placeholder="Host Name" className="usernam" />
-          <input type="emails"
-           className="usernam" placeholder="Email"/>
-          
+          <input type="emails"className="usernam" placeholder="Email"/> 
           <input type="passwords" placeholder="Password" className="usernam" />
           {/* Add input fields and other necessary elements for eduhost registration */}
           <button className="mybtn">Register</button>
@@ -98,9 +96,9 @@ const Register: React.FC = () => {
         <div className="register-form">
           <div className="register-container">
       <h2 className="me">Create an Account</h2>
-          <input type="text_register" placeholder=" Tourist Name" className="usernam" />
-          <input type="email_register" placeholder="Email" className="usernam" />
-          <input type="password_register" placeholder="Password" className="usernam" />
+          <input type="text_register" id='text_register' placeholder=" Tourist Name" />
+          <input type="email_register" id='email_register' placeholder="Email"/>
+          <input type="password_register" id='password_register'placeholder="Password"/>
           {/* Add more input fields as needed */}
           <button className="mybtn">Register</button>
           <p>Already have an account? 
@@ -116,7 +114,7 @@ const Register: React.FC = () => {
   return (
     <div><Navbar/>
     <div className="register-page">
-      <h1>Register</h1>
+      <h1 className='register_h1'>Register</h1>
       {/* Select user type section */}
       <div className="user-type-selection">
         <h2 className='usertype'>Select User Type</h2>

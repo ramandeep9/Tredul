@@ -1,49 +1,52 @@
 /* navbar */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:10px 30px 10px 20px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    position: fixed;
-    width: 97%;
-    top:0;
-   
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px 30px 10px 20px;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: static;
+  width: 98%;
+  z-index: 9999;
   
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  nav ul li {
-    cursor: pointer;
-  }
-  .mann{
-    color: #4caf50;
-  }
-  .logo{
-    width:100px;
-    height: 80px;
-    margin:2px 0px 0px 8px;
-  }
-  .mylogo{
-    width:110px;
-    height: 55px;
-    margin:9px 0px 0px 5%;
-    padding-left: 8%;
-    transform: scale(1.9);
-  }
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.25rem;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+.mann{
+  color: #4caf50;
+}
+.logo{
+  width:100px;
+  height: 70px;
+}
+img.mylogo{
+  width:90px;
+  height: 52px;
+  margin:7% 0 0 12%;
+  transform: scale(1.9);
+}
 
 .burg{
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 20px;
-  top: 20px;
+position: absolute;
+width: 40px;
+height: 40px;
+right: 20px;
+top: 20px;
+display: none;
+}
+ul.hover.active{
+  margin:2% 1% ;
+  padding: 0;
 }
 
  @media only screen and (max-width:476px){
@@ -79,9 +82,5 @@ nav {
       z-index: 9999;
       display: block;
     }
-    ul.hover.active{
-      margin:0;
-      padding: 0;
-    }
   }
-
+ 

@@ -1,62 +1,103 @@
 
-/* footer.css */
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:10px 30px 10px 20px;
-    background-color: rgb(80, 78, 78);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: white;
-    height: 100px;
-    bottom:0;
-  }
-  
-  footer ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  footer ul li {
-    cursor: pointer;
-  }
-  
-  
+  margin-top: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  
-  .copy {
-    background-color: rgb(80, 78, 78);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: rgb(250, 241, 241);
-   height: 30px;
-   padding-left: 70px;
-   
-  }
-  .copy p{
-    margin:0px;
-  }
-  .dropmenu{
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    background-color: #fff;
-    margin-right: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    z-index:9999 ;
- } 
+.footer-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
-  @media only screen and (max-width:476px) { 
-  footer{
-    display: flex;
+.footer-links ul li {
+  cursor: pointer;
+}
+
+.social-icons span {
+  cursor: pointer;
+}
+.social-icons{
+  padding: 0 10px 10px 0;
+}
+.facebook{
+  background-image: url('../assets/facelogo.png');
+  background-size: cover;
+  width:35px;
+  height: 35px;
+  
+}
+.twitter{
+  background-image: url('../assets/twitter\ logo.png');
+  background-size: cover;
+  width:35px;
+  height: 35px;
+  
+}
+.linkedin{
+  background-image: url('../assets/linkedin.png');
+  background-size: cover;
+  width:35px;
+  height: 35px;
+  
+}
+.youtube{
+  background-image: url('../assets/youtubelogo.png');
+  background-size: cover;
+  width:35px;
+  height: 35px;
+  
+}
+.insta{
+  background-image: url('../assets/instalogo.png');
+  background-size: cover;
+  width:35px;
+  height: 35px;
+  
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px 30px 10px 20px;
+  background-color: rgb(80, 78, 78);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+  height: 100px;
+  
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+footer ul li {
+  cursor: pointer;
+}
+.copy{
+  background-color: rgb(80, 78, 78);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: rgb(250, 241, 241);
+ height: 30px;
+ padding-left: 70px;
+ border: 0;
+}
+.copy p{
+  margin:0px ;
+}
+@media only screen and (max-width:476px) {
+  footer {
     width:100%;
     flex-direction: column;
     height:180px;
     padding: 0px;
-    bottom:0;
+  
    }
    .footer-links{
     flex-direction: column;
@@ -75,9 +116,10 @@ footer {
     width:100%;
     margin:0px;
     padding: 0px;
+
    }
    .copy p{
     margin: 0px;
-    text-indent:0.5 rem;
+    
    }
 }

@@ -95,9 +95,12 @@
     height: 800px;
     margin-top: 40px;
   }
+  .register_h1{
+    margin: 2% 0 2% 45%;
+  }
   
   .usertype{
-    margin:0 0 0 15%;
+    margin:0 0 0 35%;
   }
   #registerAsHost{
     justify-content: space-between;
@@ -105,18 +108,19 @@
   }
   #registerAsTourist{
     justify-content: space-between;
+    margin-bottom: 8%;
    
   }
-  .user-type-selection {
+  .user-type-selection{
     margin: 10% 10% 5% 15%;
     padding-bottom: 0;
   }
   
-  .register-form {
+  .register-form{
     margin-top: 20px;
   }
   
-  button {
+  button{
     margin: 10px;
     padding: 10px 20px;
     border: none;
@@ -129,29 +133,33 @@
   button:hover {
     background-color:  #6d706e;
   }
-  input[type='text_register'],
-  input[type='email_register'],
-  input[type='password_register'], button {
+
+  #text_register{
+  width: 100%;
   margin: 13px 0;
+  height:39px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width:400px;
   
   }
-  input[type='text_register'],
-  input[type='email_register'],
-  input[type='password_register'] {
-    width: 100%;
+  #email_register {
+    height:39px;
     padding: 10px;
+    margin:13px 0;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
   }
+  #password_register{
+    height:39px;
+    margin: 13px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    }
   .register-container {
     max-width: 400px;
-    width: 400px;
     margin: 2% auto;
     padding: 2%;
     background-color: #fff;
@@ -184,7 +192,7 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
+
   button:hover {
     background-color: #193a28;
   }
@@ -192,7 +200,10 @@
     margin:0 0 0 0;
   }
  @media screen and (max-width:476px){
-    .container{
+   .register_h1{
+    text-align: center;
+   } 
+  .container{
         margin:20px;
         width:90%;
         padding: 20px;
