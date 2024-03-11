@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import home from "../assets/home.jpeg";
 import hom from "../assets/skr.jpeg";
-import IIT from "../assets/IIT_Ropar.jpg";
+import IIT from "../assets/IIT_Ropar.jpeg";
 import NitJ from "../assets/NIT_jalandhar.jpg";
 import NitK from "../assets/NIT_kurukshetra.jpg";
 import CU from "../assets/Cu_punjab.jpg";
