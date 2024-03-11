@@ -15,7 +15,7 @@
   
   .person-info {
     display: flex;
-    align-items: center;
+    align-items: justify;
     margin-bottom: 10px;
   }
   .myimg{
@@ -23,11 +23,13 @@
         border-radius: 10px;
         width: 30px;
         height: 30px;
-  
   }
   .nm{
     font-size: medium;
-    margin-left: 30px;
+    margin: 2% 1% 7% 15%;
+    text-align: justify;
+    height:50px;
+    width:120px;
   }
   .g{
     text-align: justify;

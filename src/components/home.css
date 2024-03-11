@@ -218,7 +218,6 @@ ul{
   background-color: #45a049;
 }
 
-
 .transparent {
   text-align: center;
   margin: 0px;
@@ -309,7 +308,9 @@ ul{
   margin-top: 100px;
   color: #003b4a;
 }
-
+.caption{
+ align-content: center ;
+}
 .m1{
     text-align: center;
 
@@ -355,7 +356,7 @@ ul{
 
 
 
-.dropmenu{
+/* .dropmenu{
   display: none;
   flex-direction: column;
   position: absolute;
@@ -364,7 +365,7 @@ ul{
   justify-content: center;
   align-items: center;
   padding: 10px;
-}
+} */
 
 
 .login:hover .dropmenu{
@@ -389,10 +390,23 @@ justify-content: space-between;
   padding: 5px;
   margin: 0 50px 0;
 }
-.my{
+.thumnail{
+  width:25%;
+  height:25%;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.my{
+  border-radius: 70%;
   width: 150px;
-  height: 150px;
+  height: 165px;
+  -webkit-border-radius: 70%;
+  -moz-border-radius: 70%;
+  -ms-border-radius: 70%;
+  -o-border-radius: 70%;
 }
 .home-page {
   text-align: center;
@@ -573,6 +587,10 @@ justify-content: space-between;
   .caption{
   float: none;
   margin-left: 65px;
+  }
+  p.Top_eduH{
+    font-style: bold;
+    text-align: justify;
   }
   .pp1{
     display: flex;
