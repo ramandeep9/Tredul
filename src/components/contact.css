@@ -48,17 +48,29 @@
     color: #333;
   }
   
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  textarea {
+  #name,
+  #email{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
     width:700px;
   }
-  
+  #application,
+  #mobile{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width:700px;
+  }
+  #query{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width:678px;
+  }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="tel"]:focus,
@@ -75,7 +87,7 @@
     color: #fff;
     font-size: 1.1rem;
     cursor: pointer;
-    width: 720px;
+    width: 700px;
     margin-left: 0px;
     transition: background-color 0.3s ease;
   }
