@@ -9,6 +9,8 @@ import ContactUs from './components/ContactUs';
 import Schedule from './components/Schedule';
 import Activities from './components/Activities';
 import Rating from './components/Rating';
+import EduTouristDashboard from './Dashboard/EduTouristDashboard';
+ import EduHostDashboard from './Dashboard/EduHostDashboard';
 
 
 function App() {
@@ -25,7 +27,9 @@ function App() {
           <Route path="/about" element={<AboutUs />} /> 
           <Route path="/schedule" element={<Schedule />} /> 
           <Route path="/contact" element={<ContactUs />} /> 
-          <Route path="/Activities" element={<Activities />} />  
+          <Route path="/Activities" element={<Activities />} /> \
+          <Route path="/login/EduTouristDashboard" element={<EduTouristDashboard />} />  
+          <Route path="/login/EduHostDashboard" element={<EduHostDashboard />} />  
         </Routes>   
       </div>
     </Router>

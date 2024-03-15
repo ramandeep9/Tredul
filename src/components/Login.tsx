@@ -4,6 +4,7 @@ import "./login.css";
 import logo from "../assets/logo1.png";
 import Navbar from "./Nav";
 import Footer from "./Footer";
+import { Link } from 'react-router-dom';
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState<string>('');
@@ -41,7 +42,7 @@ const Login: React.FC = () => {
       </form>
       <a href="/forgot_password">Forgot Password?</a>
       <p className='register_account'>Don't have an account? <a href="/register">Register here</a></p>
-    </div>
+    </div><Link to ="EduTouristDashboard">dashboard</Link>
     <Footer/></div>
   );
 };

@@ -6,7 +6,7 @@ const EduTouristDashboard: React.FC = () => {
   return (
     <div>
       <h2>EduTourist Dashboard</h2>
-      {/* Display EduTourist-specific dashboard content */}
+      
     </div>
   );
 };
