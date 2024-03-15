@@ -88,7 +88,7 @@ const HomePage: React.FC<HomePageProps> = () => {
               experience.Visit  to embark on a journey that goes beyond sightseeing, where your travels become a force for positive change and education. Join us in Tr-Travel, Edu-Educate, and L-Live to make a meaningful difference in the lives of those in need.
             </p>
             <center>
-            <Link to="/register">  <button className="btn1">Register Account Now</button></Link>
+            <Link to="/register">  <button className="btn12">Register Account Now</button></Link>
               
             </center>
 

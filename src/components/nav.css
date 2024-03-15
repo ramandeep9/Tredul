@@ -9,8 +9,8 @@ nav {
   overflow: hidden;
   position: static;
   width: 98%;
-  z-index: 9999;
-  
+  z-index: 99999;
+
 }
 
 nav ul {
@@ -26,13 +26,13 @@ nav ul li {
   color: #4caf50;
 }
 .logo{
-  width:100px;
+  width:105px;
   height: 70px;
 }
-img.mylogo{
+.mylogo{
   width:90px;
-  height: 52px;
-  margin:10% 0 0 12%;
+  height: 50px;
+  margin:8px 0px 0px 9px;
   transform: scale(1.9);
 }
 
@@ -44,43 +44,41 @@ right: 20px;
 top: 20px;
 display: none;
 }
-ul.hover.active{
-  margin:2% 1% ;
-  padding: 0;
-}
 
- @media only screen and (max-width:476px){
+
+@media only screen and (max-width:476px){
   nav{
-    top: 0; 
-    width:100% 
-      
+    width:98%;
+    padding:10px 5px 0px 15px;
   }
-  .mylogo{
-    width:50px;
-    height: 50px;
+  .burg{
+    display: block;
   }
-    .hover{
-      display: none;
-      /* position: absolute; */
-      flex-direction: column;
-      background-color: #fff;
-      top:90px;
-      width: 100%;
-      left: 0;
-      padding: 0;
-      padding-bottom: 20px;
-      justify-content: center;
-      align-items: center;
-   
-     }
-     .active{
-      display:flex;
-      }
+  .hover{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background-color: #fff;
+    top:80px;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.active{
+display:flex;
+z-index:9999;
+}
+.mylogo{
+  width:70px;
+  height: 45px;
+  margin:8px 0px 0px 11px;
+}
+  .burg{
+    cursor: pointer;
+  }
 
-    .burg{
-      cursor: pointer;
-      z-index: 9999;
-      display: block;
-    }
-  }
- 
+}

@@ -24,7 +24,7 @@ const SchedulePage: React.FC = () => {
   };
 
   return (
-    <div><div><Navbar/>
+    <div><Navbar/><div  className="schedule-container">
       <h2 className="schedule">Schedule</h2>
 
       <div className="calendar-container">
