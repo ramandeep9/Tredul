@@ -2,7 +2,7 @@ import React from 'react';
 import icon from "../assets/icon.png";
 import icony from "../assets/mapicon.png";
 import { Link } from 'react-router-dom';
-
+import "./SearchResult.css";
 interface SearchResult {
   name: string;
   type: string;
@@ -44,7 +44,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ results }) => {
           <a href={result.website} target="_blank" rel="noopener noreferrer" className="blk"> <img className="myicon" alt="location" src={icon} /></a>
           <a href={result.directions} target="_blank" rel="noopener noreferrer"><img className="myicon2" alt="location" src={icony} /></a>
          </div></div>
-         <button className="botn" style={btnStyle}><Link style={btntextStyle} to="/SchdeuleTime">Schedule</Link></button>
+         <button id="botn" style={btnStyle}><Link style={btntextStyle} to="/SchdeuleTime">Schedule</Link></button>
 
         </div>
 

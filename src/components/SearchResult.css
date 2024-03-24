@@ -1,0 +1,56 @@
+/* SearchResult.css */
+
+.rresultprop {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ind {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .flexer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cyt {
+    flex: 1;
+  }
+  
+  .iconss {
+    display: flex;
+    align-items: center;
+  }
+  
+  .blk {
+    margin-right: 10px;
+  }
+  
+  .myicon,
+  .myicon2 {
+    width: 30px;
+    height: 30px;
+  }
+  
+  #botn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1e9122;
+  }
+  
+  #botn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #botn a:hover {
+    color: #fff;
+  }
+  
