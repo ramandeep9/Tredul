@@ -48,7 +48,7 @@
   }
   
 
-  input[type="email_login"],
+  input[type="email"],
   input[type="password"],
   button {
     margin: 10px 0;

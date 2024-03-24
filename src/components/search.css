@@ -1,0 +1,22 @@
+.search{
+   flex-direction: row;
+   max-width: 64em;
+   margin:  6em auto;
+   text-align: center;
+   justify-content:space-between;
+
+}
+.state{
+        height: 40px;
+        border:  none;
+        border-radius: 5px ;
+        margin-top: 10px;
+        box-shadow: 2px 2px 5px gray;
+        padding-left: 10px;
+        width:300px;
+        margin: 5px;
+    
+}
+.btn6{
+    width:100px;
+}

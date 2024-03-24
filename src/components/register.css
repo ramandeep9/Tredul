@@ -134,30 +134,35 @@
     background-color:  #6d706e;
   }
 
-  #text_register{
+  #register_Tform{
   width: 100%;
   margin: 13px 0;
-  height:39px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   
   }
-  #email_register {
-    height:39px;
+  /* input[type=text]{
+    width: 400px;
+    padding: 10px;
+    margin:13px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+  } */
+  #register_Hform{
     padding: 10px;
     margin:13px 0;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px; 
   }
-  #password_register{
-    height:39px;
+  /* #password_register{
     margin: 13px 0;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px; 
-    }
+    } */
   .register-container {
     max-width: 400px;
     margin: 2% auto;
@@ -166,7 +171,6 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
   h2.me{
     pad: 0;
     margin: 0;

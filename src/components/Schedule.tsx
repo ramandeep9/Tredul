@@ -1,9 +1,11 @@
-
-import "./schedule.css";
-import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
-import Navbar from "./Nav";
+import { Link } from 'react-router-dom';
+import Navbar from './Nav';
 import Footer from "./Footer";
+import Search from './Search'; // Import the Search component
+import './schedule.css';
+import PageComponent from './PageComponent';
+import SearchResults from './SearchResults';
 
 const SchedulePage: React.FC = () => {
   const [selectedDate, setSelectedDate] = useState<string>('');
@@ -23,39 +25,17 @@ const SchedulePage: React.FC = () => {
     console.log('Booking scheduled:', selectedDate, selectedTime);
   };
 
+  const handleSearch = (location: string) => {
+    const [city, state] = location.split(',').map((str) => str.trim());
+    // Implement your search logic here
+    console.log('Searching for schools or institutes in', city, state);
+  };
+
   return (
-    <div><Navbar/><div  className="schedule-container">
-      <h2 className="schedule">Schedule</h2>
-
-      <div className="calendar-container">
-        <div className="calendar">
-          {/* Your calendar JSX here */}
-        </div>
-
-        <form className="schedule-form" onSubmit={handleSubmit}>
-          <label htmlFor="date">Select Date</label>
-          <input
-            type="date"
-            id="date"
-            name="date"
-            value={selectedDate}
-            onChange={handleDateChange}
-            required
-          />
-
-          <label htmlFor="time">Select Time</label>
-          <input
-            type="time"
-            id="time"
-            name="time"
-            value={selectedTime}
-            onChange={handleTimeChange}
-            required
-          />
-
-          <button type="submit" id="schedulebtn">Book Schedule</button>
-        </form>
-      </div></div>
+    <div>
+      <Navbar />  
+  
+      <PageComponent/>
       <Footer/>
     </div>
   );
