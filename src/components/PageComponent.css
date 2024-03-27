@@ -1,15 +1,16 @@
 .sresult{
-    padding: 100px 50px 0 50px;
+    padding: 70px 50px 0 50px;
     display: flex;
 }
 .rresultprop{
- 
     display: grid;
     grid-template-columns: auto auto ;
     row-gap: 20px;
    justify-content: space-evenly;
    align-items: center;
     width: 100%;
+    margin-left: 11em;
+    margin-bottom: 5em;
    
 }
 
@@ -33,12 +34,17 @@
     } 
     .sresult{
         transform: scale(1);
-        padding: 0px 20px 0 20px;
+        padding: 0px 20px 0px 20px;
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -o-transform: scale(1);
         flex-direction: column;
 }
+.rresultprop{
+    display: grid;
+    margin-left: 0em;
+    grid-template-columns: auto ;
 
+}
 }

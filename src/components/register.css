@@ -98,7 +98,11 @@
   .register_h1{
     margin: 2% 0 2% 5%;
   }
-  
+  .Reg{
+    color:#ffff;
+    background-color: rgb(53, 121, 53)
+
+  }
   .usertype{
     margin:0 0 0 5%;
   }
@@ -120,7 +124,7 @@
     margin-top: 20px;
   }
   
-  button{
+  button .mybtn{
     margin: 10px;
     padding: 10px 20px;
     border: none;
@@ -135,7 +139,7 @@
   }
 
   #register_Tform{
-  width: 100%;
+  width:95%;
   margin: 13px 0;
   padding: 10px;
   border: 1px solid #ccc;
@@ -153,6 +157,7 @@
   #register_Hform{
     padding: 10px;
     margin:13px 0;
+    width:95%;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px; 
@@ -198,7 +203,7 @@
   }
 
   button:hover {
-    background-color: #193a28;
+    background-color: #1a6e40;
   }
   .back-link{
     margin:0 0 0 0;
@@ -260,4 +265,10 @@
     form.rmn{
         padding:20px;
     }
+    #register_Tform{
+      width:70%;
+  }
+    #register_Hform{
+      width:70%;
+ }
 }

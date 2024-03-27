@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from "./Nav";
- import Footer from "./Footer";
+import Footer from "./Footer";
 import './register.css'; 
 
 const Register: React.FC = () => {
@@ -58,8 +58,8 @@ const Register: React.FC = () => {
       {/* Select user type section */}
       <div className="user-type-selection">
         <h2>Select User Type</h2>
-        <button onClick={() => handleUserTypeSelect('eduhost')}>Register as EduHost</button>
-        <button onClick={() => handleUserTypeSelect('edutourist')}>Register as EduTourist</button>
+        <button  className="Reg"onClick={() => handleUserTypeSelect('eduhost')}>Register as EduHost</button>
+        <button className="Reg"onClick={() => handleUserTypeSelect('edutourist')}>Register as EduTourist</button>
       </div>
       {/* Render register form based on selected user type */}
       {renderRegisterForm()}

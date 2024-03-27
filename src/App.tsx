@@ -6,8 +6,13 @@ import Register from './components/Register';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Schedule from './components/Schedule';
+import ScheduleTime from './components/ScheduleTime';
 import Activities from './components/Activities';
 import Rating from './components/Rating';
+import DashboardTourist from './components/Dashboard/DashboardTourist';
+import DashboardHost from './components/Dashboard/DashboardHost';
+import ShareExperience from './components/ShareExperience';
+
 
 
 function App() {
@@ -24,11 +29,10 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/rating" element={<Rating />} />
-          <Route
-            path="/login/dashboard"
-            element={<Navigate to="/dashboard" />}
-          />
-    
+          <Route path="/DashboardHost" element={<DashboardHost />} />
+          <Route path="/Dashboardtour" element={<DashboardTourist />} />
+          <Route path="/SchdeuleTime" element={<ScheduleTime />} /> 
+           <Route path="/ShareExperience" element={<ShareExperience />} />
           <Route path="/login/*" element={<Navigate to="/login" replace />} />
         </Routes>
       </div>

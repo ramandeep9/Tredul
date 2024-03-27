@@ -156,8 +156,8 @@ ul{
 .visit{
   color: #4caf50;
   font-size: 30px;
-  margin: 0 0 0 5%;
-  padding: 0 0 0 5%;
+  margin: 0 0 0 0%;
+  padding: 0 0 0 0%;
 }
 
 .btn1{
@@ -452,9 +452,9 @@ justify-content: space-between;
     padding:0% 0% 1% 0;
   }
   p.head_p{
-    margin:-2% 0% 2% 0;
-    padding:0% 0% 0% 0;
-    content: justify ;
+    margin:2% 0% 2% 0;
+    padding:0% 2% 0% 2%;
+    content: justify;
   }
   
   .transparent-image,.transparent-image2,.transparent-image3{
@@ -473,7 +473,7 @@ justify-content: space-between;
     margin:20px 0px 0px 0px;
   } 
   button.btn1{
-    margin: -2.5% 0 6% -2%;
+    margin: 3% 0 0% -2%;
     padding:5px;
   }
   button.btn12{
@@ -495,6 +495,7 @@ justify-content: space-between;
    -ms-transform: scale(2);
    -o-transform: scale(2);
 }
+
   .irc{
     width: 100%;
     margin:0px 0px 10px 10px;
@@ -502,7 +503,7 @@ justify-content: space-between;
     flex-direction: column;
   }
   .visit{
-    margin: 0px 0px 0px 20px;
+    margin: -15px 0px 0px 20px;
     padding:0 0 0 0;
   }
   .travel{

@@ -1,5 +1,5 @@
 /* SearchResult.css */
-
+/* 
 .rresultprop {
     display: flex;
     flex-direction: column;
@@ -30,14 +30,15 @@
     margin-right: 10px;
   }
   
-  .myicon,
-  .myicon2 {
+  .myicon,.myicon2 {
     width: 30px;
     height: 30px;
+
   }
   
   #botn {
-    width: 100%;
+    width: 10%;
+    height:5%;
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #ccc;
@@ -52,5 +53,99 @@
   
   #botn a:hover {
     color: #fff;
+  } */
+  /* SearchResult.css */
+
+.rresultprop {
+    display: flex;
+    flex-direction: row;
   }
   
+  .ind {
+    margin-bottom: 20px;
+    padding: 10px;
+    width:80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .flexer {
+    display: flex;
+    justify-content: space-between;
+  }
+   
+   .cyt {
+     flex: 1; 
+     padding: 10px;
+  }
+  
+  .iconss {
+    display: flex;
+    align-items: right;
+    width:30%;
+  }
+  
+  .blk {
+    margin-right: 10px;
+  }
+  
+  .myicon {
+    width: 30px;
+    height: 30px;
+   
+  }
+  .myicon2 {
+    /* justify-content: center; */
+    width: 50px;
+    height: 30px;
+  }
+  #botn {
+    width: 50%;
+    height:5%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+  }
+  
+  #botn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #botn a:hover {
+    color: #fff;
+  }
+  @media (max-width:476px) {
+    .rresultprop {
+      margin-top: 0;
+  
+      grid-template-columns: auto;
+    }
+    .iconss{
+        flex-direction: column;
+    }
+    #botn {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #333;
+      }
+      .ind{
+        margin: 0 0 20px 0;
+        flex-direction: column;
+        width:90%;
+      }
+      .cyt{
+        width:75%;
+      }
+      .myicon2{
+        margin-left: -20%;
+      }
+  }
+   

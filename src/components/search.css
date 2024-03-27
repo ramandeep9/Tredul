@@ -1,7 +1,7 @@
 .search{
    flex-direction: row;
    max-width: 64em;
-   margin:  6em auto;
+   margin:  6% 0 0% 40%;
    text-align: center;
    justify-content:space-between;
 
@@ -19,12 +19,15 @@
 }
 .btn6{
     width:100px;
+    color: rgb rgb(73, 171, 73);
+    background-color: rgb(90, 199, 90);
+    margin-left: 1%;
 }
 @media (max-width:476px) {
-    .search{
+   .search{
         flex-direction: column;
         text-align: center;
-        margin-left: 3.5em;
+        margin:  3.5em 0em 0em 3.5em;
     }
     .state{
         width:220px;

@@ -36,7 +36,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ results }) => {
 <div className="flexer">
   <div className="cyt">
           <h3>{result.name}</h3>
-        Type: {result.type}
+        Type: {result.type}<br/>
           Address: {result.address}
           </div>
 

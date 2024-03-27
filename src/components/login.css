@@ -117,4 +117,12 @@
  /* button.btn{
     width:422px;
  } */
+
+ 
+ input[type="email"],
+ input[type="password"],
+ button {
+   width:220px;
+
+}
 }

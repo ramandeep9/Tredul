@@ -48,7 +48,7 @@ const HomePage: React.FC<HomePageProps> = () => {
       <div className="cnttt">
          <h1 className="head_t">Explore Our Locations</h1>
          <p className="head_p"> 
-          Discover the diverse destinations where Tredul has made a difference.<br/> From remote villages in hills to schools in forests, <br/>coastal areas, and deserts, our platform connects travelers with opportunities <br/>to make a  lasting impact on communities around the world.<br/>
+          Discover the diverse destinations where Tredul has made a difference.<br/> From remote villages in hills to schools in forests, <br/>coastal areas, and deserts, our platform connects travellers with opportunities <br/>to make a  lasting impact on communities around the world.<br/>
           </p>
           <button className="btn1">Check Our Locations</button>
           </div>

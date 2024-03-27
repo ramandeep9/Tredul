@@ -55,6 +55,7 @@ footer {
   color: white;
   height: 330px;
   box-shadow: 0 -2px 5px grey;
+  width:100%;
   
 }
 
@@ -95,6 +96,7 @@ box-shadow: 2px 2px 5px gray;
 padding-left: 0px;
 padding:10px;
 }
+
 .map{
   margin-left: 30px;
 }
@@ -127,6 +129,7 @@ text-align: center;
 }
 .small{
 font-size: 17px;
+color: black;
 text-align: center;
 
 }
@@ -154,6 +157,8 @@ footer{
   width:421px;
   margin:0px;
   margin-top: 10px;
+  color: white;
+  background-color: rgb(53, 121, 53)
 }
 @media only screen and (max-width:476px) {
   footer {
@@ -161,6 +166,7 @@ footer{
     flex-direction: column;
     height:20%;
     padding: 0px;
+    margin-top: 30px;
   
    }
    .footer-links{
@@ -173,7 +179,7 @@ footer{
     padding: 5px;
    }
    ul.twiter{
-    margin:10px 15px 0px 0px;
+    margin:10px 0px 0px 0px;
     padding: 10px 10px 10px 10px;
    }
    .buttnF{
@@ -188,6 +194,12 @@ footer{
     margin: 0px;
     
    
+   }
+   .map{
+    margin-top:8%;
+   }
+   .gridlog{
+    margin-right: 0%;
    }
 }  
 
